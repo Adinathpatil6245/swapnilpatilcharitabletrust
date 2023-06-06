@@ -57,7 +57,7 @@ Author URL: http://w3layouts.com
   .header a {
     float: none;
 /*     display: block; */
-    text-align: left;
+    text-align: center;
   }
   .header-right {
     float: none;
