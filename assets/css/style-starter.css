@@ -10,6 +10,7 @@ Author URL: http://w3layouts.com
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+/* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
@@ -55,8 +56,8 @@ Author URL: http://w3layouts.com
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
-    
-    text-align: center;
+    display: block;
+    text-align: left;
   }
   .header-right {
     float: none;
