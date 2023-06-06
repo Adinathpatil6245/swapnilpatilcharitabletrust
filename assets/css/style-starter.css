@@ -55,7 +55,7 @@ Author URL: http://w3layouts.com
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
-    /* display: block; */
+    
     text-align: center;
   }
   .header-right {
