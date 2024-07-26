@@ -209,6 +209,37 @@ Author URL: http://w3layouts.com
           <button onclick="topFunction()" id="movetop" title="Go to top">
               &uarr;
           </button>
+<!-- email send function -->
+<!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init("YOUR_USER_ID"); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+    })();
+  </script>
+        <script type="text/javascript">
+    document.getElementById('send-button').addEventListener('click', function() {
+      var toEmail = document.getElementById('to-email').value;
+      var subject = document.getElementById('subject').value;
+      var message = document.getElementById('message').value;
+
+      var templateParams = {
+        to_email: toEmail,
+        subject: subject,
+        message: message
+      };
+
+      emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+        .then(function(response) {
+          console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+          console.log('FAILED...', error);
+        });
+    });
+  </script> -->
+
+
+        
+        
           <script>
               // When the user scrolls down 20px from the top of the document, show the button
               window.onscroll = function () {
